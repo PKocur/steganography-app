@@ -2,16 +2,12 @@ package pl.pk99.steganography.model.impl;
 
 import com.grayen.encryption.caesar.algorithm.Caesar;
 import com.grayen.encryption.caesar.algorithm.implementation.CaesarFabric;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import pl.pk99.steganography.model.MessageDecoder;
 import pl.pk99.steganography.model.TextFromImageDecoder;
 import pl.pk99.steganography.model.data.enumerator.ImageColorType;
 
 import java.nio.ByteBuffer;
 
-@RequiredArgsConstructor
-@Getter
 public class SimpleMessageDecoder implements MessageDecoder {
 
     @Override
